@@ -21,6 +21,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Docker build nginx
         run: |
-          docker build . –t myimage:0.1
+          docker build –t myimage:0.1 .
           
           
