@@ -3,4 +3,4 @@ def hello():
 def bye():
   print("bye")
 
-Print(hello())
+Print(helloq())
