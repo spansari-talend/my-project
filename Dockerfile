@@ -1,5 +1,5 @@
 #This is a sample Image
-FROM ubuntu:late
+FROM ubuntu:latest
 LABEL maintainer="sameer"
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install nginx -y
